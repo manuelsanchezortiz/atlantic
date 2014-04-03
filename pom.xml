@@ -3,7 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.zkoss.theme</groupId>
 	<artifactId>atlantic</artifactId>
+<<<<<<< HEAD
 	<version>1.0.2-c</version>
+=======
+	<version>1.0.1-c</version>
+>>>>>>> Custom _zkvariables.less
 	<properties>
 		<zk.version>7.0.2</zk.version>
 		<maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
