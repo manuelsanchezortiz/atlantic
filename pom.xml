@@ -25,11 +25,6 @@
 			<name>ZK CE Repository</name>
 			<url>http://mavensync.zkoss.org/maven2</url>
 		</repository>
-		<repository>
-			<id>ZK EE Eval</id>
-			<name>ZK EE Eval Repository</name>
-			<url>http://mavensync.zkoss.org/eval/</url>
-		</repository>
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -42,11 +37,6 @@
 		<dependency>
 			<groupId>org.zkoss.zk</groupId>
 			<artifactId>zul</artifactId>
-			<version>${zk.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.zkoss.zk</groupId>
-			<artifactId>zkmax</artifactId>
 			<version>${zk.version}</version>
 		</dependency>
 	</dependencies>
