@@ -43,11 +43,6 @@
 			<artifactId>zul</artifactId>
 			<version>${zk.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.zkoss.zk</groupId>
-			<artifactId>zkmax</artifactId>
-			<version>${zk.version}</version>
-		</dependency>
 	</dependencies>
 	<build>
 		<testOutputDirectory>${project.build.directory}/classes</testOutputDirectory>
