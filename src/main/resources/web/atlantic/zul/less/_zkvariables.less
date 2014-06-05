@@ -331,3 +331,249 @@
 @tabDisabledBackground:        @grayDrak;
 @accordionSelectedColor:       @white;
 @accordionSelectedBackground:  @blueLighter;
+
+// -------------------------------------
+// Button (used for button, combobutton, toolbarbutton)
+// -------------------------------------
+@buttonColor:                  @white;
+@buttonBorderColor:            @blueLighter;
+@buttonBackground:             @blueLighter;
+@toolbarButtonColor:           @blueLighter;
+@comboButtonBorderColor:       @blueLight;
+
+// -------------------------------------
+// Input (used for textbox, intbox, spinner, ...)
+// -------------------------------------
+@inputColor:                   @grayDarker;
+@inputBorderColor:             @baseBorderColor;
+@inputBackground:              @baseBackground;
+@inputDisabledColor:           @grayDrak;
+@inputDisabledBackground:      #F2F2F2;
+
+// -------------------------------------
+// Mesh Table (used for grid, listbox, tree, biglistbox)
+// -------------------------------------
+@meshTitleColor:               @white;
+@meshTitleFontSize:            @baseFontSize;
+@meshTitleBorderColor:         @blueDarker;
+@meshTitleBackground:          @blueDark;
+@meshMenuHoverBackground:      darken(@blueDark, 5%);
+@meshStripeBackground:         @white;
+@meshFootBackground:           @grayLight;
+@meshEmptyColor:               @grayDrak;
+@meshDisabledColor:            @grayDrak;
+@meshDisabledBackground:       @white;
+
+// -------------------------------------
+// Component State base on Button
+// -------------------------------------
+// Active
+@activeColor:                  @white;
+@activeBorderColor:            @blueLight;
+@activeBackground:             @blueLight;
+@activeShadowColor:            @blue;
+
+// Focus
+@focusColor:                   @white;
+@focusBorderColor:             @blueModerate;
+@focusBackground:              @blueModerate;
+
+// Hover
+@hoverColor:                   @white;
+@hoverBorderColor:             #5E94B8;
+@hoverBackground:              #5E94B8;
+@hoverShadowColor:             @blueModerate;
+
+// Disabled
+@disabledColor:                @grayDrak;
+@disabledBorderColor:          @gray;
+@disabledBackground:           @gray;
+@disabledOpacity:              1;
+
+// -------------------------------------
+// Component State base on Input
+// -------------------------------------
+// Invalid
+@invalidBorderColor:           @red;
+@invalidBackground:            @baseBackground;
+
+// Read-only
+@readonlyBorderColor:          @baseBorderColor;
+@readonlyBackground:           @grayLighter;
+
+// -------------------------------------
+// Component State base on MeshTable
+// -------------------------------------
+// Selected (used on listbox, tree, comboitem)
+@selectedColor:                @grayDarker;
+@selectedBorderColor:          @baseBorderColor;
+@selectedBackground:           @grayLighter;
+
+// Selected Hover (used on listbox, tree, comboitem)
+@selectedHoverColor:           @white;
+@selectedHoverBorderColor:     @baseBorderColor;
+@selectedHoverBackground:      @blueLighter;
+
+// Checked (used on menuitem, listbox, tree, toolbarbutton)
+@checkedSize:                  @fontSizeLarge;
+@checkedFontSize:              @baseFontSize;
+@checkedColor:                 @blueLighter;
+@checkedBorderColor:           @gray;
+@checkedBackground:            @white;
+
+// -------------------------------------
+// Component independent variables
+// -------------------------------------
+// mask and loading
+@maskBackground:               #E0E1E3;
+@loadingColor:                 @grayDrak;
+@loadingFontSize:              @baseFontSize;
+@loadingBackground:            @white;
+
+// scrollbar
+@scrollbarWidth:                 10px;
+@scrollbarHeight:                10px;
+@scrollbarBorderColor:           @white;
+@scrollbarBackground:            @blueLighter;
+@scrollbarRailBackground:        @white;
+@scrollbarButtonBackground:      @white;
+@scrollbarButtonHoverBackground: @blueLighter;
+@scrollbarButtonColor:           @blueLighter;
+@scrollbarButtonHoverColor:      @white;
+@scrollbarIconDisplay:           none;
+
+// drag and drop
+@dragColor:                    @white;
+@dragBackground:               @grayDrak;
+@dragHoverBackground:          @blueLighter;
+@dragAllowBackground:          @green;
+@dragDisAllowBackground:       @orange;
+
+// splitter (hbox, vbox, borderlayout)
+@splitterBackground:           @grayLight;
+@splitterHoverBackground:      @gray;
+
+// calendar
+@calendarTitleColor:           @white;
+@calendarTitleBorderColor:     @blue;
+@calendarTitleBackground:      @blueDark;
+@calendarTitleHoverBackground: @blueDarker;
+@calendarSelectedColor:        @blueLighter;
+@calendarSelectedBackground:   @white;
+@calendarWeekBackground:       @grayLight;
+@calendarWeekendColor:         @grayDarker;
+@calendarWeekendBackground:    @white;
+@calendarOutRangeColor:        @grayDrak;
+@calendarOutRangeBackground:   @white;
+@calendarWeekofyearColor:      @grayDrak;
+@calendarWeekofyearBackground: @grayLight;
+
+// popup
+@popupColor:                   @white;
+@popupBackground:              @blueLighter;
+
+// group (groupbox, group, listgroup)
+@groupBorderColor:             @white;
+@groupBackground:              @gray;
+@groupFootBackground:          @grayLight;
+
+// paging
+@pagingColor:                  @grayDarker;
+@pagingIconColor:              @blueLighter;
+@pagingHoverColor:             @white;
+@pagingActiveColor:            @white;
+@pagingSelectedColor:          @blueLighter;
+@pagingBorderColor:            transparent;
+@pagingSelectedBorderColor:    transparent;
+@pagingBackground:             @grayLight;
+@pagingButtonBackground:       @white;
+@pagingSelectedBackground:     @white;
+
+// slider
+@sliderBackground:             @grayDrak;
+@sliderButtonBackground:       @blueModerate;
+
+// errorbox (input constraint)
+@errorboxColor:                @white;
+@errorboxBorderColor:          @red;
+@errorboxBackground:           @red;
+
+// notification
+@notificationColor:            @white;
+@notificationInfoColor:        @green;
+@notificationWarningColor:     @orange;
+@notificationErrorColor:       @red;
+@notificationArrowColor:       rgb(51, 51, 51);
+
+// progressmeter
+@progressmeterBackground:      @blueLighter;
+
+// window
+@windowTitleFontSize:          12px;
+@windowTitleColor:             @grayDrak;
+@windowBorderColor:            @gray;
+@windowBackground:             @white;
+
+// panel
+@panelTitleFontSize:           @fontSizeLarge;
+@panelTitleColor:              @grayDrak;
+
+// menu
+@menuImageSize:                10px;
+@menuColor:                    @white;
+@menuBackground:               @blueLighter;
+@menuHoverColor:               @blueLighter;
+@menuHoverBackground:          @white;
+@menuActiveColor:              @blueLighter;
+@menuActiveBackground:         @white;
+@menuDisabledColor:            @grayDrak;
+@menuSeparatorBorderColor:     @white;
+@menuSeparatorBackground:      @blueLighter;
+
+@menuPopupColor:               @grayDrak;
+@menuPopupBackground:          @white;
+@menuPopupHoverColor:          @white;
+@menuPopupHoverBackground:     @blueLighter;
+@menuPopupActiveColor:         @white;
+@menuPopupActiveBackground:    @blueLighter;
+@menuPopupSeparatorBorder:     @white;
+@menuPopupSeparatorBackground: @white;
+
+// navbar
+@navImageSize:                 10px;
+@navColor:                     @white;
+@navBorderColor:               transparent;
+@navBackground:                @blueLighter; //first level, each level is 5.6% darker (darken(@navBackground, 5.6 * level))
+@navHoverColor:                @blueLighter;
+@navHoverBackground:           @white;
+@navSelectedColor:             @blueLighter;
+@navSelectedBackground:        @white;
+@navSelectedHoverColor:        @blueLighter;
+@navSelectedHoverBackground:   @white;
+@navInfoBackground:            @blueModerate;
+@navSeparatorBackground:       @blueLight;
+@navCollapsedWidth:            20px;
+
+// biglistbox
+@biglistboxBackground:         @white;
+@biglistboxFrozenBackground:   #E0E0E0;
+
+// chosenbox
+@chosenboxColor:               @white;
+@chosenboxBackground:          @blueLighter;
+@chosenboxHoverColor:          @blueLighter;
+@chosenboxHoverBackground:     @white;
+@chosenboxCreateColor:         @green;
+
+// tabbox
+@tabFontSize:                  @baseFontSize;
+@tabColor:                     @white;
+@tabHoverColor:                @blueLighter;
+@tabSelectedColor:             @blueLighter;
+@tabDisabledColor:             @white;
+@tabBackground:                @blueLighter;
+@tabHoverBackground:           @blueLight;
+@tabDisabledBackground:        @grayDrak;
+@accordionSelectedColor:       @white;
+@accordionSelectedBackground:  @blueLighter;
+>>>>>>> 127dbe439a01634176706b7edac41f467c860cb2
