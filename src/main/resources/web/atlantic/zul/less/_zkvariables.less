@@ -2,11 +2,12 @@
 // -------------------------------------
 // Typography
 // -------------------------------------
-@baseFontSize:                 12px;
+@baseFontSize:                 10px;
 @baseFontFamily:               "Open Sans";
 @baseFontWeight:               300;
-@baseLineHeight:               12px;
-@baseSize:                     6px;
+@baseLineHeight:               10px;
+@baseSize:                     5px;
+
 
 // Component height
 @baseHeight:                   @baseSize;
@@ -109,7 +110,7 @@
 // Mesh Table (used for grid, listbox, tree, biglistbox)
 // -------------------------------------
 @meshTitleColor:               @white;
-@meshTitleFontSize:            15px;
+@meshTitleFontSize:            @baseFontSize;
 @meshTitleBorderColor:         @blueDarker;
 @meshTitleBackground:          @blueDark;
 @meshMenuHoverBackground:      darken(@blueDark, 5%);
@@ -170,8 +171,8 @@
 @selectedHoverBackground:      @blueLighter;
 
 // Checked (used on menuitem, listbox, tree, toolbarbutton)
-@checkedSize:                  20px;
-@checkedFontSize:              14px;
+@checkedSize:                  @fontSizeLarge;
+@checkedFontSize:              @baseFontSize;
 @checkedColor:                 @blueLighter;
 @checkedBorderColor:           @gray;
 @checkedBackground:            @white;
@@ -182,12 +183,12 @@
 // mask and loading
 @maskBackground:               #E0E1E3;
 @loadingColor:                 @grayDrak;
-@loadingFontSize:              24px;
+@loadingFontSize:              @baseFontSize;
 @loadingBackground:            @white;
 
 // scrollbar
-@scrollbarWidth:                 16px;
-@scrollbarHeight:                16px;
+@scrollbarWidth:                 10px;
+@scrollbarHeight:                10px;
 @scrollbarBorderColor:           @white;
 @scrollbarBackground:            @blueLighter;
 @scrollbarRailBackground:        @white;
@@ -264,17 +265,17 @@
 @progressmeterBackground:      @blueLighter;
 
 // window
-@windowTitleFontSize:          24px;
+@windowTitleFontSize:          12px;
 @windowTitleColor:             @grayDrak;
 @windowBorderColor:            @gray;
 @windowBackground:             @white;
 
 // panel
-@panelTitleFontSize:           24px;
+@panelTitleFontSize:           @fontSizeLarge;
 @panelTitleColor:              @grayDrak;
 
 // menu
-@menuImageSize:                16px;
+@menuImageSize:                10px;
 @menuColor:                    @white;
 @menuBackground:               @blueLighter;
 @menuHoverColor:               @blueLighter;
@@ -295,7 +296,7 @@
 @menuPopupSeparatorBackground: @white;
 
 // navbar
-@navImageSize:                 16px;
+@navImageSize:                 10px;
 @navColor:                     @white;
 @navBorderColor:               transparent;
 @navBackground:                @blueLighter; //first level, each level is 5.6% darker (darken(@navBackground, 5.6 * level))
@@ -307,7 +308,7 @@
 @navSelectedHoverBackground:   @white;
 @navInfoBackground:            @blueModerate;
 @navSeparatorBackground:       @blueLight;
-@navCollapsedWidth:            40px;
+@navCollapsedWidth:            20px;
 
 // biglistbox
 @biglistboxBackground:         @white;
@@ -321,7 +322,7 @@
 @chosenboxCreateColor:         @green;
 
 // tabbox
-@tabFontSize:                  16px;
+@tabFontSize:                  @baseFontSize;
 @tabColor:                     @white;
 @tabHoverColor:                @blueLighter;
 @tabSelectedColor:             @blueLighter;
